@@ -48,7 +48,7 @@ fn main() {
     // Hint: Define the generic type between the function name and open paren:
     //       fn function_name<T: Bite>(...)
     //
-    fn bunny_nibbles<T: Bite>(item: &mut T) {
+    fn bunny_nibbles<T: Bite>(item: T) {
         item.bite();
         item.bite();
     }
